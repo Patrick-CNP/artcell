@@ -39,3 +39,8 @@ https://github.com/neo-project/neo
 
 https://docs.neo.org/en-us/node/gui/install.html  - will use Test network 
 
+
+## Work
+
+Visual Studio Code
+
