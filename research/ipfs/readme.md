@@ -18,3 +18,6 @@ Initializing daemon...
 ```
 
 http://localhost:5001/ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh/#/
+
+
+Add in for firefox after running daemon https://github.com/ipfs-shipyard/ipfs-companion
