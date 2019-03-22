@@ -37,8 +37,12 @@ https://github.com/richardschneider/net-ipfs-http-client - dotnet api
 https://github.com/neo-project/neo 
 
 
-https://docs.neo.org/en-us/node/gui/install.html  - will use Test network 
+https://docs.neo.org/en-us/node/gui/install.html  
 
+https://www.nuget.org/profiles/neo-project - dotnet
+
+
+https://github.com/neo-project/neo-cli
 
 ## Work
 
