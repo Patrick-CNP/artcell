@@ -3,7 +3,7 @@ own, store and sell digital art in international distributed network
 
 ## Why?
 
-Because we whan each person in a world sell and own without pociblity to be prevented from doing so or being deprivates of his own goods. And because internet techologies are read for that.
+Because we want each person in a world sell and own without pociblity to be prevented from doing so or being deprivates of his own goods. And because internet techologies are read for that.
 
 We want operations to be automated.
 
