@@ -57,6 +57,8 @@ namespace web.Controllers
 
 					var hash = _ipfsService.AddFileToStorage(fileToUploadInIfps);
 
+					//TODO: _neoService.Sent(UserKey,Hash); 
+
 					return hash;
 				}
 				else

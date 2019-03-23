@@ -9,6 +9,7 @@ $("input[type=file]").change(function() {
   console.log(files);
 });
 
+
 $(() => {
   $("#btn-submite-file").on("click", () => {
 
@@ -22,14 +23,22 @@ $(() => {
       url: "http://localhost:5999/api/upload?userId=" + key,
       type: "POST",
       data: fd,
-      contentType: false,
+      contentType: false,  
+      dataType: "json",
       processData: false,
       success(data) {
-        $(".ajax-response").html(JSON.parse(data).params.key);
+        $(".ajax-response").html(data);
       },
       error(textStatus) {
-        $("#ajax-response").html(`ОШИБКИ AJAX запроса: ${textStatus}`);
-        console.log(`ОШИБКИ AJAX запроса: ${textStatus}`);
+		  if(textStatus.readyState == 4 && textStatus.status == 200)
+		  {
+			  $(".ajax-response").html(textStatus.responseText);
+		  }
+		  else
+		  {
+			 $("#ajax-response").html(`ОШИБКИ AJAX запроса: ${textStatus}`);
+			 console.log(`ОШИБКИ AJAX запроса: ${textStatus}`); 
+		  }
       }
     });
   });

@@ -11,6 +11,7 @@ namespace web.Services
     {
 		private string _ipfsPath;
 		private const string _dataFolder = @"D:\artcell\tools\go-ipfs\data";
+
 		public IpfsService(string ipfsPath)
 		{
 			_ipfsPath = ipfsPath;
