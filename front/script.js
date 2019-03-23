@@ -16,7 +16,7 @@ $(() => {
       data.append(i, file);
     });
     $.ajax({
-      url: "https://putsreq.com/g2dkdzjKtDS20vcGIg1W",
+      url: "http://localhost:5999/api/upload",
       type: "POST",
       data: data,
       success(data) {
