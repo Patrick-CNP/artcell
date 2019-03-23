@@ -19,7 +19,7 @@ $(() => {
     fd.append("key", key);
 
     $.ajax({
-      url: "https://putsreq.com/vX2qLnaVmK6YLOB7h7YZ",
+      url: "http://localhost:5999/api/upload?userId=" + key,
       type: "POST",
       data: fd,
       contentType: false,

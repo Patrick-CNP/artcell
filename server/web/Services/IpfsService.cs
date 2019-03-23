@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace web.Services
 {
-    public class IpfsService
+    public class IpfsService : IIpfsService
     {
 		private string _ipfsPath;
 		private const string _dataFolder = @"D:\artcell\tools\go-ipfs\data";

@@ -4,48 +4,67 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
-
+using web.Services;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 
 namespace web.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class UploadController : ControllerBase
-    {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+	[Route("api/[controller]")]
+	[ApiController]
+	public class UploadController : ControllerBase
+	{
+		private readonly IHostingEnvironment _hostingEnvironment;
+		private readonly IIpfsService _ipfsService;
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
+		private const string LocalStorage = @"D:/artcell/server/web/LocalFileStorage/";
 
-        // POST api/values
-        [HttpPost]
-        public string Post([FromQuery]string userId)
-        {
-            var asd = HttpContext.Request.Headers;
-             var files = HttpContext.Request.Form.Files;
-            System.IO.File.WriteAllText("D:/artcell/server/web/.storage"+files[0].FileName, files[0].FileName);
-            return "http://127.0.0.1:8080/ipfs/Qmd328suBFpYFwsPxnnyVaKCuzEwrvJTVDcbX1J2kS3go1";
-        }
+		public UploadController(IIpfsService ipfsService, IHostingEnvironment hostingEnvironment)
+		{
+			_ipfsService = ipfsService;
+			_hostingEnvironment = hostingEnvironment;
+		}
+		// GET api/upload
+		[HttpGet]
+		public ActionResult<IEnumerable<string>> Get()
+		{
+			return new string[] { "value1", "value2" };
+		}
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+		// GET api/upload/5
+		[HttpGet("{id}")]
+		public ActionResult<string> Get(int id)
+		{
+			return "value";
+		}
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
-    }
+		// POST api/upload
+		[HttpPost]
+		public string Post([FromQuery]string userId)
+		{
+			var asd = HttpContext.Request.Headers;
+			var files = HttpContext.Request.Form.Files;
+			if (files.Count() != 0)
+			{
+				var formFile = files[0];
+				var fileToUploadInIfps = Path.Combine(LocalStorage, formFile.FileName);
+				if (formFile.Length > 0)
+				{
+					using (var stream = new FileStream(Path.Combine(LocalStorage, formFile.FileName), FileMode.Create))
+					{
+						formFile.CopyTo(stream);
+					}
+
+					var hash = _ipfsService.AddFileToStorage(fileToUploadInIfps);
+
+					return hash;
+				}
+				else
+					return Constants.FileIsEmpty;
+			}
+			else
+				return Constants.FileWasNotUploaded;
+		}
+
+	}
 }
