@@ -1,6 +1,8 @@
 let files;
 let sender;
 let recipient;
+let key;
+
 
 $("input[type=file]").change(function() {
   files = this.files;
@@ -9,29 +11,26 @@ $("input[type=file]").change(function() {
 
 $(() => {
   $("#btn-submite-file").on("click", () => {
-    // const fd = new FormData(jQuery("#upload_file")[0]);
-    // console.log(fd);
-    var data = new FormData($("#upload_file"));
 
-    jQuery.each($("#upload_file")[0].files, (i, file) => {
-      data.append(i, file);
-    });
+    let fd = new FormData();
+    let files = $("#upload_file")[0].files[0];
+    let key = $("#key-user").val();
+    fd.append("file", files);
+    fd.append("key", key);
+
     $.ajax({
-        url: "http://localhost:5999/api/upload?userId=1239210831209jdkofdjkfdshfksdfsdf",
+      url: "https://putsreq.com/vX2qLnaVmK6YLOB7h7YZ",
       type: "POST",
-      data: data,
+      data: fd,
       contentType: false,
       processData: false,
       success(data) {
-        $(".ajax-response").html(data);
+        $(".ajax-response").html(JSON.parse(data).params.key);
       },
       error(textStatus) {
         $("#ajax-response").html(`ОШИБКИ AJAX запроса: ${textStatus}`);
         console.log(`ОШИБКИ AJAX запроса: ${textStatus}`);
-      },
-      cache: false,
-      contentType: false,
-      processData: false
+      }
     });
   });
 });
