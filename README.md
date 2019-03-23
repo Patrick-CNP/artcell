@@ -25,26 +25,12 @@ Static Sites (https://jamstack.org/ , http://netlifycms.org/ , https://pages.git
 
 ### Storage
 
-https://ipfs.io/ p2p storage application
 
-https://github.com/ipfs/awesome-ipfs - links to data explorer and other
-
-https://github.com/richardschneider/net-ipfs-http-client - dotnet api
 
 
 ### Ownership, exchange, transactions, contracts
 
-https://github.com/neo-project/neo 
 
-
-https://docs.neo.org/en-us/node/gui/install.html  
-
-https://www.nuget.org/profiles/neo-project - dotnet
-
-
-https://github.com/neo-project/neo-cli
 
 ## Work
-
-Visual Studio Code
 
