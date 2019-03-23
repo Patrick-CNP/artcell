@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&amp;subset=cyrillic,cyrillic-ext"
+      rel="stylesheet"
+    />
+    <title>АРТСЕЛ</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-line"></div>
+      <h1>АРТСЕЛ</h1>
+    </header>
+
+    <form
+      name="change-owner"
+      action="##"
+      method="post"
+      enctype="multipart/form-data"
+      id="change-owner"
+      class="form-style"
+    >
+      <div>
+        <label for="sender">Отправитель</label>
+        <input placeholder="введите..." type="text" id="sender" name="sender" />
+        <label for="recivier">Получатель </label>
+        <input
+          placeholder="введите..."
+          type="text"
+          id="recipient"
+          name="recipient"
+        />
+      </div>
+      <div class="btn">
+        <input type="button" id="btn-change-owner" value="Отправить" />
+      </div>
+    </form>
+
+    <footer></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
