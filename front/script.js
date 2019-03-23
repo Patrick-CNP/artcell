@@ -11,14 +11,16 @@ $(() => {
   $("#btn-submite-file").on("click", () => {
     // const fd = new FormData(jQuery("#upload_file")[0]);
     // console.log(fd);
-      var data = new FormData($("#upload_file"));
-      jQuery.each($("#upload_file")[0].files, function(i, file) {
+    var data = new FormData($("#upload_file"));
+    jQuery.each($("#upload_file")[0].files, (i, file) => {
       data.append(i, file);
     });
     $.ajax({
-      url: "https://putsreq.com/g2dkdzjKtDS20vcGIg1W",
+        url: "https://putsreq.com/vX2qLnaVmK6YLOB7h7YZ",
       type: "POST",
       data: data,
+      contentType: false,
+      processData: false,
       success(data) {
         $(".ajax-response").html(data);
       },
