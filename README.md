@@ -4,18 +4,34 @@
 
 Own, store and sell digital content in international distributed network with one button click
 
-![art](research/content/2.jpg)
+Cheaper robust alternative to: 
 
-*Arts Industries Add $764 Billion Per Year to the US Economy*
+
+![art](research/content/2.jpg)
 
 ---
 ![header](header.png)
-# Goal
+
+
+We are creating cheaper, more robust, lock free and more creator centic-brended stack than next markes:
+
+https://envato.com/
+
+https://www.audioblocks.com
+
+We do not solve original author problem now (we should just do econimically efficent alternativ), but when we have:
+
+- Use same upporach as above markets
+- User machine learning and third party services to detect issues (scan all p2p, including pirate networks)
+
+
+---
+![header](header.png)
 
 Allow each person:
 
-1. Create near zero cost web page which cannot go down
-2. Do unique file upload which cannot be lost
+1. Create near zero cost web page which cannot go down (as easy as Facebook)
+2. Do unique file upload which cannot be lost nor blocked
 3. Allow to transfer rights of file from that page for currency
 4. Person cannot be detached from ownership or cheated
 5. There is no vendor lock in
@@ -24,7 +40,7 @@ Allow each person:
 ---
 ![header](header.png)
 
-# Owner workflow
+# Content creator workflow
 
 1. Attach our widject to hist static site.
 2. Upload file.
