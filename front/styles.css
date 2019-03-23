@@ -38,7 +38,7 @@ footer::after {
   margin-top: 4px;
   color: #bdbdbd;
 }
-#btn-submite-file {
+.btn-submite {
   padding: 10px 40px;
   background-color: #fdf100;
   border-radius: 25px;
@@ -64,4 +64,10 @@ input[name="upload_file"] {
 input[type="text"] {
   border-radius: 3px;
   font-size: 1.3em;
+}
+.ajax-response{
+    text-align: center;
+    background-color: grey;
+    width: 440px;
+    margin: auto;
 }

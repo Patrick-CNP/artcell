@@ -42,9 +42,27 @@
         />
       </div>
       <div class="btn">
-        <input type="button" id="btn-change-owner" value="Отправить" />
+        <input type="button" id="btn-change-owner" value="Отправить" class="btn-submite"/>
       </div>
     </form>
+    <div class="ajax-response"></div>
+    <form
+    name="get-item"
+    action="##"
+    method="post"
+    enctype="multipart/form-data"
+    id="get-item"
+    class="form-style"
+  >
+    <div>
+      <label for="sender">Ввести ключ</label>
+      <input placeholder="введите..." type="text" id="sender" name="sender" />
+    </div>
+    <div class="btn">
+      <input type="button" id="btn-get-item" value="Получить" class="btn-submite" />
+    </div>
+  </form>
+
 
     <footer></footer>
     <script src="./script.js"></script>
