@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+
 
 namespace web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class UploadController : ControllerBase
     {
         // GET api/values
         [HttpGet]
@@ -26,8 +28,9 @@ namespace web.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] IFormFile value)
         {
+            Console.WriteLine("ASDSADAD");
         }
 
         // PUT api/values/5

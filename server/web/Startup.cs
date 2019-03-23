@@ -41,7 +41,10 @@ namespace web
                 app.UseHsts();
             }
 
+            app.UseCors();
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
+            app.UseCors("*");
             app.UseMvc();
         }
     }
