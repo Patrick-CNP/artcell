@@ -2,8 +2,11 @@
 ![header](header.png)
 
 
-Own, store and sell digital content in international distributed network
+Own, store and sell digital content in international distributed network with one button click
 
+![art](research/content/2.jpg)
+
+*Arts Industries Add $764 Billion Per Year to the US Economy*
 
 ---
 ![header](header.png)
@@ -23,7 +26,7 @@ Allow each person:
 
 # Owner workflow
 
-1. Attach our widhect to hist static site.
+1. Attach our widject to hist static site.
 2. Upload file.
 3. Attache his crypto currenty credentails
 4. Set price of digital item
@@ -40,56 +43,52 @@ Allow each person:
 
 # Our solutions for Owner workflow
 
-1. Use internet build on content addressable peer to peer web
-2. Durably store data and get immutable content link 
-3. Store immutable link and owner identifier on blockchain
-4. Store owner transferhip right
+1. Use internet build on content addressable durable peer to peer web and get immutable content link 
+2. Store immutable link and ownership on blockchain
+3. After sell, transfer crypto into fiat
 
 #### Economics and money
-- File is stored by many machines like `torrent`
+- File is stored by many machines like p2p Dropbox
 - If file is stored more than several times(popular for non commercial purporese) we can avoid storing
 - We take money for `backup` (may still take money but no back because popular).
 
 ---
 ![header](header.png)
+# Consumer workflow
+- Buy crypto currency
+- Visits person static page (our our aggregator with search)
+- Presses our widget to buy
+- Digital asset transfered onto hist id in blockchain by smart contract
+
+### Economics and money
+- Fee for operation of transfering ownership
+- Complex faceted search over sellable digital assets fee
+
+---
+![header](header.png)
+
+# Why? Socially
+
+- laws enforcing of local storages and or audit are 
+- directives to shut down sites cannot shutdown
+- inability of arbitraty descision of selling provider to prevent person to sell
+- avoid lock ins
+- grows of "grey" p2p internet is trementoids and not yet monetised  
 
 
 ---
-
-Cross posting to Zeronet sites, Gitlab Pages, Github Pages, Netlify 
-
+![header](header.png)
 
 
-## Why?
+## Cases
+- Revolution in dictatorship country, most internet is blocked (p2p still works), photographer captures militant beats out eye ball of prosetant, publish and sell to western media whithin 10 minutes of happening
+- Many digital artifcats became tradeable goods, while now stored. Upoaded means tradable. 
 
-Because we want each person in a world sell and own without pociblity to be prevented from doing so or being deprivates of his own goods. And because internet techologies are read for that.
+---
+![header](header.png)
+# Why? Technically?
 
-We want operations to be automated.
-
-## What?
-
-Here is high level desription of solution semantics
-
-## How?
-
-Here is diagrams of end user workflows
-
-
-## Technology
-
-
-### Front
-
-Static Sites (https://jamstack.org/ , http://netlifycms.org/ , https://pages.gitlab.io/ , and distibuted http://zeronet.io/)
-
-### Storage
-
-
-
-
-### Ownership, exchange, transactions, contracts
-
-
-
-## Work
+- Static Sites - next `Billion sites` (Jamstack, Netlifycms, Zeronet, Gitlab Pages, Github pages, SOLID)
+- Global efficient storage with no copies (efficient) properly build for Web scale (we use IPFS, but there are Dat, torrent)
+- Fast blockhains with propert entprise security (NEO with dBFT, .NET)
 
