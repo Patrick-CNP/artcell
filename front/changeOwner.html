@@ -23,27 +23,28 @@
     </header>
 
     <form
-      name="upload_file"
+      name="change-owner"
       action="##"
       method="post"
       enctype="multipart/form-data"
-      id="send-file"
+      id="change-owner"
       class="form-style"
     >
       <div>
-        <label for="upload_file">Выбрать файл</label>
+        <label for="sender">Отправитель</label>
+        <input placeholder="введите..." type="text" id="sender" name="sender" />
+        <label for="recivier">Получатель </label>
         <input
-          type="file"
-          id="upload_file"
-          enctype="multipart/form-data"
-          method="post"
+          placeholder="введите..."
+          type="text"
+          id="recipient"
+          name="recipient"
         />
       </div>
       <div class="btn">
-        <input type="button" id="btn-submite-file" value="Отправить" />
+        <input type="button" id="btn-change-owner" value="Отправить" />
       </div>
     </form>
-    <div id="ajax-respond"></div>
 
     <footer></footer>
     <script src="./script.js"></script>
