@@ -19,6 +19,7 @@ Allow each person:
 
 
 ---
+![header](header.png)
 
 # Owner workflow
 
@@ -35,6 +36,7 @@ Allow each person:
 - we may cell usage of our widget as share of ownership if upload was done via
 
 ---
+![header](header.png)
 
 # Our solutions for Owner workflow
 
@@ -47,6 +49,10 @@ Allow each person:
 - File is stored by many machines like `torrent`
 - If file is stored more than several times(popular for non commercial purporese) we can avoid storing
 - We take money for `backup` (may still take money but no back because popular).
+
+---
+![header](header.png)
+
 
 ---
 
