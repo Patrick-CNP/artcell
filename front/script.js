@@ -12,11 +12,12 @@ $(() => {
     // const fd = new FormData(jQuery("#upload_file")[0]);
     // console.log(fd);
     var data = new FormData($("#upload_file"));
+
     jQuery.each($("#upload_file")[0].files, (i, file) => {
       data.append(i, file);
     });
     $.ajax({
-        url: "https://putsreq.com/vX2qLnaVmK6YLOB7h7YZ",
+        url: "http://localhost:5999/api/upload?userId=1239210831209jdkofdjkfdshfksdfsdf",
       type: "POST",
       data: data,
       contentType: false,

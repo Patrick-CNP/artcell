@@ -28,10 +28,12 @@ namespace web.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] IFormFile value)
+        public string Post([FromQuery]string userId)
         {
-            System.IO.File.WriteAllText("D:/artcell/server/web/"+value.FileName, value.FileName);
-            Console.WriteLine("ASDSADAD");
+            var asd = HttpContext.Request.Headers;
+             var files = HttpContext.Request.Form.Files;
+            System.IO.File.WriteAllText("D:/artcell/server/web/.storage"+files[0].FileName, files[0].FileName);
+            return "http://127.0.0.1:8080/ipfs/Qmd328suBFpYFwsPxnnyVaKCuzEwrvJTVDcbX1J2kS3go1";
         }
 
         // PUT api/values/5
