@@ -30,6 +30,7 @@ namespace web.Controllers
         [HttpPost]
         public void Post([FromBody] IFormFile value)
         {
+            System.IO.File.WriteAllText("D:/artcell/server/web/"+value.FileName, value.FileName);
             Console.WriteLine("ASDSADAD");
         }
 
