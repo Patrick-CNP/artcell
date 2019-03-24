@@ -1,10 +1,7 @@
 
 ![header](header.png)
 
-
-Own, store and sell digital content in international distributed network with one button click
-
-Cheaper robust alternative to: 
+Advertise, own, store and sell digital content on distributed network with one button click
 
 
 ![art](research/content/2.jpg)
@@ -12,23 +9,43 @@ Cheaper robust alternative to:
 ---
 ![header](header.png)
 
+We want to give people future of the internet
 
-We are creating cheaper, more robust, lock free and more creator centic-brended stack than next markes:
+---
+![header](header.png)
 
 
+Step 1
 
-We do not solve original author problem now (we should just do econimically efficent alternativ), but when we have:
+Create serverless branded site 
 
-- Use same upporach as above markets
-- User machine learning and third party services to detect issues (scan all p2p, including pirate networks)
+Use dozen of available options on market
+
+---
+![header](header.png)
+
+Step 2
+
+Drag Artcell web element into site
 
 
 ---
 ![header](header.png)
 
-Allow each person:
+Step 3
 
-1. Create near zero cost web page which cannot go down (as easy as Facebook)
+User authenticates via distibuted identity
+
+
+---
+
+![header](header.png)
+
+Step 3
+
+Upload via Artcell into distributed file storage
+
+
 2. Do unique file upload which cannot be lost nor blocked
 3. Allow to transfer rights of file from that page for currency
 4. Person cannot be detached from ownership or cheated
@@ -106,3 +123,13 @@ Allow each person:
 - Global efficient storage with no copies (efficient) properly build for Web scale (we use IPFS, but there are Dat, torrent)
 - Fast blockhains with propert entprise security (NEO with dBFT, .NET)
 
+
+---
+
+
+
+
+We do not solve original author problem now (we should just do econimically efficent alternativ), but when we have:
+
+- Use same upporach as above markets
+- User machine learning and third party services to detect issues (scan all p2p, including pirate networks)

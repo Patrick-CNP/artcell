@@ -29,11 +29,10 @@ $(() => {
       },
       error(textStatus) {
         const data = "Qmd328suBFpYFwsPxnnyVaKCuzEwrvJTVDcbX1J2kS3go1";
-        $("#item").html(
-          `<img  class="get-img" src="http://127.0.0.1:8080/ipfs/${data}">`
-        );
         if (textStatus.readyState == 4 && textStatus.status == 200) {
-          $(".ajax-response").html(textStatus.responseText);
+          $("#item").html(
+            `<img  class="get-img" src="http://127.0.0.1:8080/ipfs/${data}">`
+          );
         } else {
           $("#ajax-response").html(`ОШИБКИ AJAX запроса: ${textStatus}`);
           console.log(`ОШИБКИ AJAX запроса: ${textStatus}`);
