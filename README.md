@@ -15,7 +15,7 @@ Cheaper robust alternative to:
 
 We are creating cheaper, more robust, lock free and more creator centic-brended stack than next markes:
 
-envato.com soundsnap.com audioblocks.com  assetstore.unity3d.com artstation.com ...
+
 
 We do not solve original author problem now (we should just do econimically efficent alternativ), but when we have:
 

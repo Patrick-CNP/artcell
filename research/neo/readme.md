@@ -44,3 +44,18 @@ Keystore File `AaDUdhq99daJ5oNw6TU87hRD2dciWbV4da.txt` with
 ```
 
 
+# Test net
+
+https://neo.org/testcoin/apply
+
+
+neo> create wallet artcelltest.json
+password: ***********
+password: ***********
+address: AaaJR6a7113n1eyCh7WCEyBE1FLVTdMgVw
+pubkey: 0296367528536f580abe880b473820fe738d3f5bd03d9fd1dbc024c7a10ed505d1
+
+
+#Local blockchain
+
+Local nodes enry http://localhost:4002/
