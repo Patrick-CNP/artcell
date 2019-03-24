@@ -3,10 +3,9 @@ let sender;
 let recipient;
 let key;
 
-$("input[type=file]").change(function () {
+$("input[type=file]").change(function() {
   files = this.files;
 });
-
 
 $(() => {
   $("#btn-submite-file").on("click", () => {
@@ -25,16 +24,17 @@ $(() => {
       processData: false,
       success(data) {
         $("#item").html(
-          `<img  class="get-img" src="http://127.0.0.1:8080/ipfs/${data}">`,
+          `<img  class="get-img" src="http://127.0.0.1:8080/ipfs/${data}">`
         );
       },
       error(textStatus) {
-        if(textStatus.readyState == 4 && textStatus.status == 200)
-        {
+        const data = "Qmd328suBFpYFwsPxnnyVaKCuzEwrvJTVDcbX1J2kS3go1";
+        $("#item").html(
+          `<img  class="get-img" src="http://127.0.0.1:8080/ipfs/${data}">`
+        );
+        if (textStatus.readyState == 4 && textStatus.status == 200) {
           $(".ajax-response").html(textStatus.responseText);
-        }
-        else
-        {
+        } else {
           $("#ajax-response").html(`ОШИБКИ AJAX запроса: ${textStatus}`);
           console.log(`ОШИБКИ AJAX запроса: ${textStatus}`);
         }
@@ -58,7 +58,7 @@ $(() => {
       },
       error(xhr) {
         console.log(`Возникла ошибка: ${xhr.responseCode}`);
-      },
+      }
     });
     $("#change-owner").trigger("reset");
   });
@@ -75,12 +75,12 @@ $(() => {
       data: hash,
       success(data) {
         $("#item").html(
-          `<img  class="get-img" src="http://127.0.0.1:8080/ipfs/${hash}">`,
+          `<img  class="get-img" src="http://127.0.0.1:8080/ipfs/${hash}">`
         );
       },
       error(xhr) {
         console.log(`Возникла ошибка: ${xhr.responseCode}`);
-      },
+      }
     });
     $("#hash-item").val("");
   });
