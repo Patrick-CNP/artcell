@@ -24,30 +24,21 @@ $(() => {
       dataType: "json",
       processData: false,
       success(data) {
-<<<<<<< HEAD
         $("#item").html(
           `<img  class="get-img" src="http://127.0.0.1:8080/ipfs/${data}">`,
         );
       },
       error(textStatus) {
-        $("#ajax-response").html(`ОШИБКИ AJAX запроса: ${textStatus}`);
-        console.log(`ОШИБКИ AJAX запроса: ${textStatus}`);
-      },
-=======
-        $(".ajax-response").html(data);
-      },
-      error(textStatus) {
-		  if(textStatus.readyState == 4 && textStatus.status == 200)
-		  {
-			  $(".ajax-response").html(textStatus.responseText);
-		  }
-		  else
-		  {
-			 $("#ajax-response").html(`ОШИБКИ AJAX запроса: ${textStatus}`);
-			 console.log(`ОШИБКИ AJAX запроса: ${textStatus}`);
-		  }
+        if(textStatus.readyState == 4 && textStatus.status == 200)
+        {
+          $(".ajax-response").html(textStatus.responseText);
+        }
+        else
+        {
+          $("#ajax-response").html(`ОШИБКИ AJAX запроса: ${textStatus}`);
+          console.log(`ОШИБКИ AJAX запроса: ${textStatus}`);
+        }
       }
->>>>>>> 6df0e83e9def8f05930a5269099bed8a8076f712
     });
   });
 });
