@@ -16,5 +16,6 @@
 - Allow to pay via currency and transfer rights via created static page
 - Attache static search to static page
 - Attach semantic markup to allow search page as via Search engines as World Wide Shop
+- Avoid non original works via near match search in p2p networks.
 
 ![demo](demo.gif)
