@@ -25,7 +25,45 @@ What we did?
 
 # March 24
 
+We where phases out as having bad idea for fintech hackaton.
 
+Also school boy ""writing"" virtualization for x86 was passed. 
+
+Also won team who explicitly stated that came with [almost ready product](https://www.youtube.com/watch?v=ztqkp5JMs-I).
+
+```
+(letter to organizers)
+Добрый день,
+
+(our team members)
+
+зерегистрировались на мерояприятие через форму в fintech.by, но подтвержений не получили.
+
+Существует ли возможность осуществить регистрацию сейчас?
+
+Если да, то второй вопрос следующий. Мы очень ясно понимаем, что сделать за 2 дня всё мы не можем.
+Поэтому, ищем человека который опишет бизнес идею над которой мы будет работать 2 дня на хакатоне заранее.
+Мы почитаем статьи по предметной области и я набросаю каркас архитектуры.
+
+Можете посоветовать конкртеного человека, с ясной целью и адекватной по размеру задачей, который будет присутствовать на хакатоне с кем можно работать?
+
+Спасибо
+
+(response was)
+
+Olga Fiodorova <o@bel.biz>
+	
+Thu, Mar 21, 11:12 AM (4 days ago)
+	
+(regustration stuff)
+
+Заранее с наработками приходить на хакатон, к сожалению, нельзя.
+С бизнес частью вам помогут наши менторы, которые уже завтра будут присутствовать на открытии. 
+
+...
+```
+
+So I guess voting and choosing process could be questioned.
 
 
 

@@ -1,135 +1,18 @@
 
 ![header](header.png)
 
-Advertise, own, store and sell digital content on distributed network with one button click
+# Advertise, own, store and sell digital content on distributed network with one button click
+
+[ARTCELL pitch on Russian at 2019-03-24](https://www.youtube.com/watch?v=zrini-SSjB8)
 
 
-![art](research/content/2.jpg)
-
----
-![header](header.png)
-
-We want to give people future of the internet
-
----
-![header](header.png)
-
-
-Step 1
-
-Create serverless branded site 
-
-Use dozen of available options on market
-
----
-![header](header.png)
-
-Step 2
-
-Drag Artcell web element into site
-
-
----
-![header](header.png)
-
-Step 3
-
-User authenticates via distibuted identity
-
-
----
-
-![header](header.png)
-
-Step 3
-
-Upload via Artcell into distributed file storage
-
-
-2. Do unique file upload which cannot be lost nor blocked
-3. Allow to transfer rights of file from that page for currency
-4. Person cannot be detached from ownership or cheated
-5. There is no vendor lock in
-
-
----
-![header](header.png)
-
-# Content creator workflow
-
-1. Attach our widject to hist static site.
-2. Upload file.
-3. Attache his crypto currenty credentails
-4. Set price of digital item
-
-### Providers
-- Dozens of `static` sites providers and generators
-
-### Economics and money
-- such sites as cheap as 1 USD per year, may optinally buy domain (10 USD per year)
-- we may cell usage of our widget as share of ownership if upload was done via
-
----
-![header](header.png)
-
-# Our solutions for Owner workflow
-
-1. Use internet build on content addressable durable peer to peer web and get immutable content link 
-2. Store immutable link and ownership on blockchain
-3. After sell, transfer crypto into fiat
-
-#### Economics and money
-- File is stored by many machines like p2p Dropbox
-- If file is stored more than several times(popular for non commercial purporese) we can avoid storing
-- We take money for `backup` (may still take money but no back because popular).
-
----
-![header](header.png)
-# Consumer workflow
-- Buy crypto currency
-- Visits person static page (our our aggregator with search)
-- Presses our widget to buy
-- Digital asset transfered onto hist id in blockchain by smart contract
-
-### Economics and money
-- Fee for operation of transfering ownership
-- Complex faceted search over sellable digital assets fee
-
----
-![header](header.png)
-
-# Why? Socially
-
-- laws enforcing of local storages and or audit are 
-- directives to shut down sites cannot shutdown
-- inability of arbitraty descision of selling provider to prevent person to sell
-- avoid lock ins
-- grows of "grey" p2p internet is trementoids and not yet monetised  
-
-
----
-![header](header.png)
-
-
-## Cases
-- Revolution in dictatorship country, most internet is blocked (p2p still works), photographer captures militant beats out eye ball of prosetant, publish and sell to western media whithin 10 minutes of happening
-- Many digital artifcats became tradeable goods, while now stored. Upoaded means tradable. 
-
----
-![header](header.png)
-# Why? Technically?
-
-- Static Sites - next `Billion sites` (Jamstack, Netlifycms, Zeronet, Gitlab Pages, Github pages, SOLID)
-- Global efficient storage with no copies (efficient) properly build for Web scale (we use IPFS, but there are Dat, torrent)
-- Fast blockhains with propert entprise security (NEO with dBFT, .NET)
-
-
----
-
-
-
-
-We do not solve original author problem now (we should just do econimically efficent alternativ), but when we have:
-
-- Use same upporach as above markets
-- User machine learning and third party services to detect issues (scan all p2p, including pirate networks)
+- We want to give people future of the internet.
+- Create serverless branded site. Use dozen of available options on market
+- Attach distributed identity to it.
+- Drag Artcell web element into site
+- User authenticates via distributed identity
+- Upload via Artcell into distributed file storage
+- Allow to transfer some rights of file from that page for currency
+- Allow to pay via currency and transfer rights via created static page
+- Attache static search to static page
+- Attach semantic markup to allow search page as via Search engines as World Wide Shop

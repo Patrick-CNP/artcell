@@ -11,5 +11,6 @@ https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.105-macos-x64-ins
 https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.105-windows-x64-installer
 
 
-
 https://docs.ipfs.io/introduction/install/
+
+https://github.com/CityOfZion/neo-local - local neo cluster
